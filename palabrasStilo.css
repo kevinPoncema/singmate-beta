@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 640px;
+    height: 360px;
+    display: block;
+    margin: 0 auto;
+}
+
+select {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilos para la barra de menú fija */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Hace que la barra de menú sea fija */
+    top: 0; /* Ancla la barra de menú en la parte superior */
+    left: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}

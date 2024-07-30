@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video_als</title>
+    <link rel="stylesheet" href="mainStil.css"> <!-- Enlaza el archivo CSS externo -->
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Barra de menú -->
+    <header>
+        <nav>
+            <a href="palatras.html">Palabras</a>
+            <a href="letras.html">Letras</a>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="formulario">
+        <form action="">
+            <label for="txt">Frase</label>
+            <input type="text" id="txt">
+            <button type="button" id="playButton" onclick="rep()">Reproducir</button>
+        </form>
+    </div>
+    <p id="eti">Palabra</p>
+    <div class="vip">
+        <div class="video-container">
+            <video id="reproductor" controls>
+                <source src="" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </div>
+</body>
+</html>

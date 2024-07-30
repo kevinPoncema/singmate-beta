@@ -1,0 +1,64 @@
+/* Estilos para el encabezado y la barra de menú */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Hacer que el encabezado sea fijo */
+    top: 0; /* Anclarlo en la parte superior */
+    left: 0;
+    right: 0;
+}
+
+header nav {
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+/* Estilos para el contenido principal */
+.formulario {
+    display: grid;
+    place-items: center;
+    margin-top: 5%;
+}
+
+#txt {
+    width: 80%;
+}
+
+#playButton {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+.vip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.video-container {
+    max-width: 90;
+    max-height: 90vh;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
